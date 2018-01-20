@@ -36,9 +36,15 @@ return ["Arnold", ...kittens]
 }
 var kittens = ['Milo', 'Otis', 'Garfield'];
 
-
 function removeLastKitten(name) {
   var newArray = kittens.slice();
   newArray.pop()
+  return newArray
+}
+var kittens = ['Milo', 'Otis', 'Garfield'];
+
+function removeFirstKitten(name) {
+  var newArray = kittens.slice();
+  newArray.shift()
   return newArray
 }
