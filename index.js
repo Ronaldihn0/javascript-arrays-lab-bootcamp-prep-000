@@ -37,7 +37,7 @@ return ["Arnold", ...kittens]
 var kittens = ['Milo', 'Otis', 'Garfield'];
 
 
-function removeLastKitten(kittens) {
+function removeLastKitten(name) {
   var newArray = kittens.slice(-1);
   newArray.pop(name)
   return newArray
