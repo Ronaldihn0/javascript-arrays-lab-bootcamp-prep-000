@@ -41,5 +41,4 @@ function removeLastKitten(name) {
   var newArray = kittens.slice();
   newArray.pop()
   return newArray
-
 }
